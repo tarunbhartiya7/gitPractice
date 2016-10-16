@@ -1,0 +1,31 @@
+Git commands
+
+1.git init 
+	initialise git repository in local
+
+2.git status 
+	get the status of files yet to be committed
+
+3.git add . 
+	add all the uncommitted files to staging directory
+
+4.git commit -m "first message"
+	once staged, all the files can be committed in staging directory
+
+5.git remote add origin "git repo url"
+	add a origin pointing to git repository url
+
+6.git push remote origin
+	push committed files to github
+
+7.git remote -v
+	get the remote pointing to url
+
+8.git remote rm origin
+	remove the origin pointing to url
+
+9.git rm <filename> and commit & push those changes
+	remove file from local and github repo
+
+10.git rm -r *
+	delete everything 
